@@ -1,0 +1,28 @@
+{
+  "name": "imobiliaria-api-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados para a API de imobiliária (login de corretor e cliente)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+   "test": "mocha test/**/*.js --timeout 5000 --exit"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickymance/imobiliaria-api-tests.git"
+  },
+  "keywords": [],
+  "author": "Vicky Mance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickymance/imobiliaria-api-tests/issues"
+  },
+  "homepage": "https://github.com/vickymance/imobiliaria-api-tests#readme",
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  }
+}
+
