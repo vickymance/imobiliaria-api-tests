@@ -86,8 +86,8 @@ describe("Registro de cliente", () => {
     const clienteIncompleto = {
       nome: "Cliente Sem Senha",
       email: `cliente_sem_senha${Date.now()}@teste.com`,
-      senha: "123456"
-      role: "cliente"
+      senha: "123456",
+      role: "cliente",
     };
 
     const response = await request(app)
